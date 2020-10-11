@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_70564_iplookup_ipaddressinfo</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate IP Address City</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script/>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 00:33:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f604ad052fb3101009d955272799b6eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate IP Address City</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IpLookup" source="x_70564_iplookup">6e6f05052f33101009d955272799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IpLookup">6e6f05052f33101009d955272799b608</sys_scope>
+        <sys_update_name>sys_script_f604ad052fb3101009d955272799b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 00:37:02</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=f604ad052fb3101009d955272799b6eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IpLookup">6e6f05052f33101009d955272799b608</application>
+        <file_path/>
+        <instance_id>1e2ec308db73334049eac59705961961</instance_id>
+        <instance_name>dev93052</instance_name>
+        <name>sys_script_f604ad052fb3101009d955272799b6eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script"><sys_script action="INSERT_OR_UPDATE"><abort_action>false</abort_action><access>package_private</access><action_delete>false</action_delete><action_insert>true</action_insert><action_query>false</action_query><action_update>true</action_update><active>true</active><add_message>false</add_message><advanced>false</advanced><change_fields>false</change_fields><client_callable>false</client_callable><collection>x_70564_iplookup_ipaddressinfo</collection><condition/><description/><execute_function>false</execute_function><filter_condition/><is_rest>false</is_rest><message/><name>Populate IP Address City</name><order>100</order><priority>100</priority><rest_method/><rest_method_text/><rest_service/><rest_service_text/><rest_variables/><role_conditions/><script/><sys_class_name>sys_script</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-11 00:33:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f604ad052fb3101009d955272799b6eb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Populate IP Address City</sys_name><sys_overrides/><sys_package display_value="IpLookup" source="x_70564_iplookup">6e6f05052f33101009d955272799b608</sys_package><sys_policy/><sys_scope display_value="IpLookup">6e6f05052f33101009d955272799b608</sys_scope><sys_update_name>sys_script_f604ad052fb3101009d955272799b6eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-11 00:37:02</sys_updated_on><template/><when>async</when></sys_script><sys_translated_text action="delete_multiple" query="documentkey=f604ad052fb3101009d955272799b6eb"/></record_update>]]></payload>
+        <payload_hash>1748056981</payload_hash>
+        <record_name>Populate IP Address City</record_name>
+        <reverted_from/>
+        <source>ee6f05052f33101009d955272799b60a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 00:37:02</sys_created_on>
+        <sys_id>e7cd82192f3f501009d955272799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751516e0640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 00:37:02</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>efcd8219743f5010d75b795ed8bc2dc1</update_guid>
+        <update_guid_history>efcd8219743f5010d75b795ed8bc2dc1:1748056981,8dfcce19063f5010353849a6a60b82e4:-1220383448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 00:37:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>021af59c665c4698b56797af4c68c2e4</sys_id>
+        <sys_metadata>f604ad052fb3101009d955272799b6eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate IP Address City</sys_name>
+        <sys_package display_value="IpLookup" source="x_70564_iplookup">6e6f05052f33101009d955272799b608</sys_package>
+        <sys_parent display_value="IPAddressInfo">4419610d2fb3101009d955272799b66c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IpLookup">6e6f05052f33101009d955272799b608</sys_scope>
+        <sys_scope_delete display_value="">c7384f041fa147149ec6154757f05e10</sys_scope_delete>
+        <sys_update_name>sys_script_f604ad052fb3101009d955272799b6eb</sys_update_name>
+        <sys_update_version display_value="sys_script_f604ad052fb3101009d955272799b6eb">e7cd82192f3f501009d955272799b6c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 00:37:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
